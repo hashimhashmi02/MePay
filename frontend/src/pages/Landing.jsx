@@ -125,7 +125,7 @@ export function Landing() {
               <div className="space-y-4">
                 <div className="inline-flex items-center bg-white rounded-full px-4 py-2 shadow-sm">
                   <Star className="w-4 h-4 text-yellow-500 mr-2" />
-                  <span className="text-sm font-medium text-gray-700">Trusted by 50M+ Indians</span>
+                  <span className="text-sm font-medium text-gray-700">Trusted by 2k+ Indians</span>
                 </div>
                 <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 leading-tight">
                   Digital<br/>
@@ -148,7 +148,7 @@ export function Landing() {
 
               <div className="flex items-center space-x-8 pt-4">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-gray-900">₹10L+</div>
+                  <div className="text-2xl font-bold text-gray-900">₹1k+</div>
                   <div className="text-sm text-gray-600">Daily Transactions</div>
                 </div>
                 <div className="text-center">
@@ -175,7 +175,7 @@ export function Landing() {
                     <div className="flex items-center space-x-3">
                       <div className="w-10 h-10 bg-gray-200 rounded-full"></div>
                       <div>
-                        <div className="text-sm font-medium text-gray-900">Rahul Sharma</div>
+                        <div className="text-sm font-medium text-gray-900">Ashok Dinda</div>
                         <div className="text-xs text-gray-500">+91 98765 43210</div>
                       </div>
                     </div>
