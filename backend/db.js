@@ -1,6 +1,3 @@
-
-
-
 require('dotenv').config();
 
 const mongoose = require('mongoose');
@@ -18,7 +15,7 @@ mongoose.connect(mongoURL, {
 .then(() => console.log('✅ MongoDB connected'))
 .catch(err => console.error('❌ MongoDB connection error:', err));
 
-// 4) User schema define karo
+
 const userSchema = new mongoose.Schema({
   username: {
     type: String,
@@ -51,7 +48,7 @@ const userSchema = new mongoose.Schema({
 
 const accountSchema = new mongoose.Schema({
   userId: {
-    type: mongoose.Schema.Types.ObjectId, // Reference to User model
+    type: mongoose.Schema.Types.ObjectId, 
     ref: 'User',
     required: true
   },
